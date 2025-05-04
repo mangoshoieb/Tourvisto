@@ -9,6 +9,7 @@ import {
 
 import type { Route } from "./+types/root";
 import "./app.css";
+import {registerLicense} from "@syncfusion/ej2-base";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -40,6 +41,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
     </html>
   );
 }
+
+registerLicense(import.meta.env.VITE_SYNCFUSION_LICENCE_KEY)
 
 export default function App() {
   return <Outlet />;
