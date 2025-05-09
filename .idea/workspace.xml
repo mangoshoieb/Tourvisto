@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27afd3b-817b-49d8-8b0c-2649c2983b87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/appwrite/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/appwrite/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/entry.client.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/entry.client.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/admin/admin-layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/admin-layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/admin/all-users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/all-users.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/admin/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument.server.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/instrument.server.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +77,7 @@
       <workItem from="1746282896941" duration="881000" />
       <workItem from="1746314217604" duration="18134000" />
       <workItem from="1746485879094" duration="14222000" />
-      <workItem from="1746703726380" duration="21040000" />
+      <workItem from="1746703726380" duration="22583000" />
     </task>
     <servers />
   </component>
