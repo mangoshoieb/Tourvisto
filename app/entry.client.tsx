@@ -11,7 +11,7 @@ Sentry.init({
     sendDefaultPii: true,
 
     integrations: [
-        Sentry.browserTracingIntegration(),
+        Sentry.reactRouterTracingIntegration(),
         Sentry.replayIntegration(),
     ],
     tracesSampleRate: 1.0, //  Capture 100% of the transactions

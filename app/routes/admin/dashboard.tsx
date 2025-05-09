@@ -7,10 +7,6 @@ import type {Route} from './+types/dashboard'
 
 export const clientLoader = async () => await getUser()
 
-export async function loader() {
-    throw new Error("some error thrown in a loader");
-}
-
 const dashboard = ({loaderData}: Route.ComponentProps) => {
     const user = loaderData as User | null;
 

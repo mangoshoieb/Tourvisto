@@ -11,9 +11,9 @@ export async function clientLoader() {
         if (!user.$id) return redirect("/sign-in");
         const existingUser = await getExistingUser(user.$id)
 
-        if (existingUser?.status === 'user') {
-            return redirect('/')
-        }
+        // if (existingUser?.status === 'user' || 'admin' || null) {
+        //     return redirect('/all-users')
+        // }
         return existingUser?.$id ? existingUser : await storeUserData()
     } catch (error) {
         console.log("Error in Client Loader", error);
