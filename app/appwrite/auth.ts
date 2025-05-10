@@ -65,8 +65,8 @@ export const loginWithGoogle = async () => {
     try {
         account.createOAuth2Session(
             OAuthProvider.Google,
-            "https://tourvisto.vercel.app/dashboard", // <-- Successful login goes here
-            "https://tourvisto.vercel.app/sign-in"     // <-- Failure fallback
+            `${window.location.origin}/`,
+            `${window.location.origin}/404`
         );
     } catch (error) {
         console.error("Error during OAuth2 session creation:", error);
