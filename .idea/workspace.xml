@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27afd3b-817b-49d8-8b0c-2649c2983b87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/routes/admin/createTrips.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/NavItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/NavItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/admin/all-users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/all-users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/admin/trips.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin/trips.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +87,7 @@
       <workItem from="1746314217604" duration="18134000" />
       <workItem from="1746485879094" duration="14222000" />
       <workItem from="1746703726380" duration="23038000" />
-      <workItem from="1746889582247" duration="2168000" />
+      <workItem from="1746889582247" duration="18232000" />
     </task>
     <servers />
   </component>

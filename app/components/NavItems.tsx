@@ -6,7 +6,6 @@ import {logoutUser} from "~/appwrite/auth";
 const NavItems = ({handleClick}: { handleClick?: () => void }) => {
     const user = useLoaderData()
     const navigate = useNavigate()
-    console.log(user)
     const handleLogOut = async () => {
         await logoutUser()
         navigate("/sign-in")

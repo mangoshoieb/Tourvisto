@@ -27,6 +27,7 @@
     --color-light-300: #f2f4f7;
     --color-light-400: #ebeeed;
     --color-light-500: #e3f1ff;
+    --color-light-600: #cae4fb;
     --color-success-50: #ecfdf3;
     --color-success-100: #d4f8db;
     --color-success-500: #63dca4;
@@ -519,7 +520,7 @@
     }
 
     .form-input {
-        @apply p-3.5 border border-light-400 rounded-xl text-base text-dark-300 font-normal;
+        @apply p-3.5 border-3 border-[#cae4fb] rounded-xl text-base text-dark-300 font-normal;
     }
 
     .comboBox-popup {
@@ -543,7 +544,7 @@
     }
 
     .combo-box {
-        @apply !p-3.5 !border w-full !border-light-400 !rounded-xl !text-base !text-dark-300 !font-normal;
+        @apply !p-3.5 !border-3 w-full !border-[#cae4fb] !rounded-xl !text-base !text-dark-300 !font-normal;
     }
 }
 
