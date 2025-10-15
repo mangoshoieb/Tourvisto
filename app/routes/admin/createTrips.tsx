@@ -10,16 +10,22 @@ import {ButtonComponent} from "@syncfusion/ej2-react-buttons";
 import {account} from "~/appwrite/client";
 
 export const loader = async () => {
-    const response = await fetch("https://restcountries.com/v3.1/all");
-    const json = await response.json();
+    try{
+        console.log("hi")
+        const response = await fetch("https://restcountries.com/v3.1/all?fields=name,flags,latlng,maps");
+        const json = await response.json();
+        return json.map((country: any) => ({
+            name: country.name.common,
+            value: country.name.common,
+            flagUrl: country.flags?.png || "",
+            coordinates: country.latlng,
+            streetsMap: country.maps?.openStreetMaps,
+        }));
 
-    return json.map((country: any) => ({
-        name: country.name.common,
-        value: country.name.common,
-        flagUrl: country.flags?.png || "",
-        coordinates: country.latlng,
-        streetsMap: country.maps?.openStreetMaps,
-    }));
+    }catch(error){
+        console.log('error fetching countries:', error)
+        throw error
+    }
 };
 
 const CreateTrips = ({loaderData}: Route.ComponentProps) => {
@@ -67,6 +73,7 @@ const CreateTrips = ({loaderData}: Route.ComponentProps) => {
             console.error('error generating trip', e)
         } finally {
             setLoading(false)
+            setError(null)
         }
     };
     const handleChange = (key: keyof TripFormData, value: string | number) => {
