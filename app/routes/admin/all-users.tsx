@@ -11,6 +11,7 @@ export const loader = async () => {
 
 const AllUsers = ({loaderData}: Route.ComponentProps) => {
     const {users} = loaderData
+    console.log(users)
     return (
         <main className="dashboard wrapper">
             <Header
@@ -26,8 +27,9 @@ const AllUsers = ({loaderData}: Route.ComponentProps) => {
                         textAlign="Left"
                         template={(props: UserData) => (
                             <div className="flex items-center gap-1.5 px-4">
+                            
                                 <img
-                                    src={props.imageUrl}
+                                    src={`${props.imageUrl}`}
                                     alt={props.name}
                                     className="size-8 rounded-full aspect-square"
                                 />
